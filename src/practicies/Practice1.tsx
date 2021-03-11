@@ -6,11 +6,11 @@ export default function Practice1() {
   const onclickPractice = () => calcTotalFee(1000)
 
   return (
-    <div className="mx-auto m-5 p-1 text-center">
-      <p className="m-5 p-3">練習問題：引数の型指定</p>
+    <div className="mx-auto m-2 p-1 text-center">
+      <p className="m-2 p-3">練習問題：引数の型指定</p>
       <button
         onClick={onclickPractice}
-        className=" py-2 px-4 text-white rounded-md bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"
+        className="px-4 py-2 text-white rounded-md bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"
       >
         練習問題１を実行
       </button>
