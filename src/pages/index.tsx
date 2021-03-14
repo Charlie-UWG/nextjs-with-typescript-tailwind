@@ -21,13 +21,13 @@ export default function Home() {
           <a>Page2</a>
         </Link>
       </header>
-      <HomePage />
-      <div>
+      {/* <HomePage /> */}
+      {/* <div>
         <Practice1 />
         <Practice2 />
         <Practice3 />
         <Practice4 />
-      </div>
+      </div> */}
     </>
   )
 }
